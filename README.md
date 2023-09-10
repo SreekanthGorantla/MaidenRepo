@@ -1,4 +1,4 @@
 # MaidenRepo
 
-I am Sreekanth Gorantla
-This is my initial testing in GIT
+I am Sreekanth Gorantla, and
+This is my initial testing in GIT.
