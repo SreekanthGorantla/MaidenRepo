@@ -395,3 +395,83 @@ print(b[2:])
 
 b = "Hello, World!"
 print(b[-5:-2])
+
+# Python - Modify Strings
+# Python has a set of built-in methods that you can use on strings.
+
+# Upper Case
+# Example: The Upper() methin returns the string in upper case:
+a= "Hello, World!"
+print(a.upper())
+
+# Lower Case
+# The lower() method returns the string in lower case:
+a = "HELLO, WORLD!"
+print(a.lower())
+
+# Remove Whitespace
+# Whitespace is the sapce before and/or after actual text, and very often you want to remove this space
+# Example: The stric() method removes any whitespace from the befinning or the end:
+
+a = "Hello, World!"
+print(a.strip())  # returns "Hello, World!"
+
+# Replace String
+# Example: The replace() method replaces a string with another string:
+
+a = "Hello, World!"
+print(a.replace("H", "J"))
+
+        # Split String
+# The split() method returns a list where the test between the specified separator becomes the lsit items.
+# Example: The split() method splits the string into substrings if it finds instances of the separator:
+
+a = "Hello, World!"
+print(a.split(","))  # returns ['Hello', 'World!']
+
+# String Methods
+# Leans more about String Method with out String Methods Reference
+# Python - String Concatenation
+# String Concatenation
+# To concatenate, or combine, two strings you can use the + operator.
+
+# Example: Merge variable a with variable b into variable c:
+a = "Hello"
+b = "World"
+c = a + b
+print(c)
+
+# Example: To add space between then, add a " "":
+a = "Hello"
+b = "World"
+c = a + " " + b
+print(c)
+
+# Python - Format - Strings
+# String Format
+# As we learned in the Python Variables chapter, we cannot combine strings and numbers like this:
+#age = 36
+#txt = "My name is Sree, I am " + age
+#print(txt)  # Error will come
+
+# But we can combine strings and numbers by using the format() method!
+# The format() method takes the passed arguments, formats them, and places them is the string where the placeholders {} are:
+# Example: Use the format() method to insert numbers in to strings:
+
+age = 36
+txt = "My name is Sree, and I am {}"
+print(txt.format(age))
+# The format() method takes unlimited number of arguments, and are placed into the respective placeholders:
+quantity = 3
+itemno = 567
+price = 49.95
+myorder = "I want {} pieces of item {} for {} dollars."
+print(myorder.format(quantity, itemno, price))
+
+# You can use index numbers {0} to be sure the arguments are paced in the correct placeholders:
+quantity = 3
+itemno = 567
+price = 49.95
+myorder = "I want to pay {2} dollors for {0} pieces of item {1}."
+print(myorder.format(quantity, itemno, price))
+
