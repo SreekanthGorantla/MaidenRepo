@@ -1,0 +1,40 @@
+Assignment 1 - 
+
+['CLOSED', 'PENDING_PAYMENT', 'COMPLETE', 'CLOSED', 'COMPLETE', 'COMPLETE', 'COMPLETE', 'PROCESSING', 'PENDING_PAYMENT', 'PENDING_PAYMENT']
+
+Find the count of each order status
+
+Assignment 2 - 
+
+[    [1, 100, 'success'],
+    [2, 200, 'pending'],
+    [3, 150, 'success'],
+    [4, 300, 'failed'],
+    [5, 400, 'success'],
+    [6, 250, 'pending'],
+    [7, 350, 'failed'],
+    [8, 450, 'success'],
+    [9, 500, 'pending'],
+    [10, 600, 'failed']
+]
+
+output :
+success: 4
+pending: 3
+failed: 3
+
+Assignement 3:
+
+[
+    [101, 'John', 'IT', 60000],
+    [102, 'Alice', 'HR', 50000],
+    [103, 'Bob', 'Finance', 70000],
+    [104, 'Emma', 'IT', 55000],
+    [105, 'David', 'Finance', 75000],
+    [106, 'Sophia', 'HR', 48000]
+]
+
+find the average salary for each department
+
+Sample output:
+Finance: Average Salary - 72500
